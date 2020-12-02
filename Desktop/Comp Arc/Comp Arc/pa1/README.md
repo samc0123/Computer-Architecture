@@ -3,7 +3,7 @@
 
 # Programming Assignment 1: Introduction to C
 
-## Introduction
+### Introduction
 
 This assignment is designed to give you some initial experience with programming in C, as well as
 compiling, linking, running, and debugging. Your task is to write 6 small C programs. Each of
@@ -11,7 +11,7 @@ them will test a portion of your knowledge about C programming. They are discuss
 program must follow the input-output guidelines listed in each sectionexactly, with no additional
 or missing output.
 
-### First: Array and Sorting (10 Points)
+## First: Array and Sorting (10 Points)
 Write a program that will read an array from a file and sort the given array. It should return the
 array sorted with all even numbers in ascending order at the front followed by all odd numbers in
 descending order. You may assume that input array will not have more than 20 elements (i.e., max
@@ -40,7 +40,7 @@ $ ./first file1.txt
 We will not give you improperly formatted files. You can assume all your input files will be in
 proper format as above.
 
-### Second: Linked List (20 points)
+## Second: Linked List (20 points)
 
 In this part, you have to implement a linked list that maintains a list of integers in sorted order.
 Thus, if the list contains 2, 5 and 8, then 1 will be inserted at the start of the list, 3 will be inserted
@@ -98,7 +98,7 @@ $ ./second file4.txt
 error
 ```
 
-### Third: Hash table (20 points)
+## Third: Hash table (20 points)
 
 In this part, you will implement a hash table containing integers. The hash table has 10,000 buckets.
 An important part of a hash table is collision resolution. In this assignment, we want you to use
@@ -155,7 +155,7 @@ $ ./third file2.txt
 2
 ```
 
-### Fourth: Matrix Multiplication (20 Points)
+## Fourth: Matrix Multiplication (20 Points)
 
 This program will test your ability to manage memory usingmalloc()and provide some experience
 dealing with 2D arrays in C.
@@ -198,7 +198,7 @@ proper format as above with no matrix having 0 rows or columns.
 
 For matrices that cannot be multiplied your program should output “bad-matrices”.
 
-### Fifth: String Operations II (10 points)
+## Fifth: String Operations II (10 points)
 
 The fifth part requires you to read an input string representing a sentence, form a word whose
 letters are all the vowels in the given sentence, and print it. You should preserve the case of the
@@ -215,7 +215,7 @@ $ ./fifth Rutgers Scarlet Knights
 ueaei
 ```
 
-### Sixth: Binary Search Tree (20 points)
+## Sixth: Binary Search Tree (20 points)
 
 In the sixth part, you have to implement a binary search tree. The tree must satisfy the binary
 search tree property: the key in each node must be greater than all keys stored in the left sub-tree,

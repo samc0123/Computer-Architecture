@@ -198,7 +198,7 @@ proper format as above with no matrix having 0 rows or columns.
 
 For matrices that cannot be multiplied your program should output “bad-matrices”.
 
-###Fifth: String Operations II (10 points)
+### Fifth: String Operations II (10 points)
 
 The fifth part requires you to read an input string representing a sentence, form a word whose
 letters are all the vowels in the given sentence, and print it. You should preserve the case of the

@@ -1,9 +1,9 @@
 
-##CS 211: Computer Architecture, Fall 2019
+## CS 211: Computer Architecture, Fall 2019
 
-#Programming Assignment 1: Introduction to C
+# Programming Assignment 1: Introduction to C
 
-##Introduction
+## Introduction
 
 This assignment is designed to give you some initial experience with programming in C, as well as
 compiling, linking, running, and debugging. Your task is to write 6 small C programs. Each of
@@ -11,7 +11,7 @@ them will test a portion of your knowledge about C programming. They are discuss
 program must follow the input-output guidelines listed in each sectionexactly, with no additional
 or missing output.
 
-###First: Array and Sorting (10 Points)
+### First: Array and Sorting (10 Points)
 Write a program that will read an array from a file and sort the given array. It should return the
 array sorted with all even numbers in ascending order at the front followed by all odd numbers in
 descending order. You may assume that input array will not have more than 20 elements (i.e., max
@@ -40,7 +40,7 @@ $ ./first file1.txt
 We will not give you improperly formatted files. You can assume all your input files will be in
 proper format as above.
 
-###Second: Linked List (20 points)
+### Second: Linked List (20 points)
 
 In this part, you have to implement a linked list that maintains a list of integers in sorted order.
 Thus, if the list contains 2, 5 and 8, then 1 will be inserted at the start of the list, 3 will be inserted
@@ -98,7 +98,7 @@ $ ./second file4.txt
 error
 ```
 
-###Third: Hash table (20 points)
+### Third: Hash table (20 points)
 
 In this part, you will implement a hash table containing integers. The hash table has 10,000 buckets.
 An important part of a hash table is collision resolution. In this assignment, we want you to use
@@ -155,7 +155,7 @@ $ ./third file2.txt
 2
 ```
 
-###Fourth: Matrix Multiplication (20 Points)
+### Fourth: Matrix Multiplication (20 Points)
 
 This program will test your ability to manage memory usingmalloc()and provide some experience
 dealing with 2D arrays in C.
@@ -163,7 +163,7 @@ dealing with 2D arrays in C.
 Your task is to create a program that multiplies two matrices and outputs the resulting matrix.
 The input matrices can be the same or different sizes.
 
-**Input-Output format:**Your program will take the file name as input. The first line in the file
+**Input-Output format:** Your program will take the file name as input. The first line in the file
 will provide the number of rows and columns in the matrix separated by a tab. The subsequent
 lines will provide the contents of the matrix. The numbers in the same row are tab separated and
 the rows are separated with new lines. This will be followed by the same format for the dimensions
@@ -215,7 +215,7 @@ $ ./fifth Rutgers Scarlet Knights
 ueaei
 ```
 
-###Sixth: Binary Search Tree (20 points)
+### Sixth: Binary Search Tree (20 points)
 
 In the sixth part, you have to implement a binary search tree. The tree must satisfy the binary
 search tree property: the key in each node must be greater than all keys stored in the left sub-tree,
@@ -313,7 +313,7 @@ Note that the -fsanitize=address flag is useful for detecting memory errors, but
 to check for memory leaks, you should omit this option. Otherwise, the two tools conflict with each
 other and you’ll get incorrect results from valgrind (e.g., 32 bytes lost, even if you never call malloc).
 
-###Submission
+### Submission
 
 You have to submit the assignment using Canvas. Your submission should be a tar file named
 pa1.tar. To create this file, put everything that you are submitting into a directory (folder)
@@ -332,7 +332,7 @@ name of the directories should be named first through sixth (in lower case). Eac
 contain a c source file, a header file (if necessary) and a make file. For example, the subdirectory
 first will contain, first.c, first.h and Makefile (the names are case sensitive).
 
-###AutoGrader
+### AutoGrader
 
 We provide the AutoGrader to test your assignment. AutoGrader is provided as autograder.tar.
 Executing the following command will create the autograder folder.
@@ -364,11 +364,11 @@ This mode is to test your final submission (i.e, pa1.tar)
 (2) Run the autograder with pa1.tar as the argument.
 
 The command line is
-
+```
 $ python auto_grader.py pa1.tar
 ```
 
-###Scoring
+### Scoring
 The autograder will print out information about the compilation and the testing process. At the
 end, if your assignment is completely correct, the score will something similar to what is given
 below.
@@ -385,7 +385,7 @@ Your TOTAL SCORE = 50.0 /
 
 Your assignment will be graded for another 50 points with test cases not given to you
 
-###Grading Guidelines
+### Grading Guidelines
 
 You should make sure that we can build your program by just runningmake.
 You should test your code as thoroughly as you can. For example, programs shouldnotcrash
